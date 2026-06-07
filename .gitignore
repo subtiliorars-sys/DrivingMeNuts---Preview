@@ -1,2 +1,21 @@
-*.agdai
-**/MAlonzo/**
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets / env — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# Build / deps
+node_modules/
+dist/
+build/
+
+# Scratch
+*.log
+tmp/

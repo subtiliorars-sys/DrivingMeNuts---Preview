@@ -35,7 +35,9 @@ Current demo includes: save/load with corruption recovery, daily profit-and-loss
 
 ## Play
 
-**Demo available soon.** No deploy link yet — check back, or follow the repo for updates.
+**Closed beta:** Read and sign **[PLAYTEST.md](./PLAYTEST.md)** — volunteer onboarding + confidentiality agreement. The owner sends build access after you sign.
+
+**Public demo URL:** *Not live yet — check back here or watch this repo.*
 
 ---
 

@@ -1,0 +1,64 @@
+name: Playtest volunteer signup
+description: Sign up to playtest Driving Me Nuts — creates a stored GitHub issue (public on this repo)
+title: "[Playtest signup] "
+labels:
+  - playtest-signup
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you submit:** read [PLAYTEST.md](https://github.com/subtiliorars-sys/DrivingMeNuts---Preview/blob/main/PLAYTEST.md).
+
+        Submitting this form creates a **public GitHub issue** on this repository (visible on the internet). Do **not** post private email or phone here — the owner will contact you via **GitHub notifications** on your username below.
+
+        By checking the boxes below you agree to the Playtest & Confidentiality terms in PLAYTEST.md.
+
+  - type: input
+    id: legal_name
+    attributes:
+      label: Legal name (electronic signature)
+      description: Type your full name as your signature
+      placeholder: Jane Doe
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      description: We will @mention you here for build access and follow-ups
+      placeholder: octocat
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Primary playtest device
+      options:
+        - Windows (desktop browser)
+        - macOS (desktop browser)
+        - Linux (desktop browser)
+        - iPhone / iPad (Safari)
+        - Android (Chrome)
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Agreement (required)
+      options:
+        - label: I have read PLAYTEST.md and agree to confidentiality, feedback license, volunteer terms, and education-not-advice.
+          required: true
+        - label: I understand this issue is public — I did not include private contact info beyond my GitHub username.
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Optional notes
+      description: Availability, accessibility needs, how you heard about the project
+    validations:
+      required: false

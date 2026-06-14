@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Playtest guide & agreement text
+    url: https://github.com/subtiliorars-sys/DrivingMeNuts---Preview/blob/main/PLAYTEST.md
+    about: Read this before submitting the signup form

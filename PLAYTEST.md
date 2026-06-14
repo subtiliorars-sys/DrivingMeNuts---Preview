@@ -7,9 +7,21 @@
 
 ---
 
-## 1. Read & sign (required before access)
+## Sign up (stored on GitHub)
 
-Copy the agreement block below into an email or DM to the project owner, fill in the blanks, and type your name on the **Signature** line. The owner will reply with build access.
+**Fill out the signup form — it creates a GitHub issue (your signed agreement on record):**
+
+### → [Open playtest signup form](https://github.com/subtiliorars-sys/DrivingMeNuts---Preview/issues/new?template=playtest-signup)
+
+You need a **free GitHub account**. The form saves your answers as an issue on the public Preview repo (visible on the internet — **do not** put private email in the form; we contact you via GitHub @mention on your username).
+
+After signup, the owner will invite you to the private dev repo or send a play link.
+
+---
+
+## Agreement text (same as the form)
+
+Read this before submitting the form above.
 
 ### Playtest & Confidentiality Agreement
 
@@ -31,6 +43,8 @@ I agree:
 7. **Privacy.** Progress saves in **your browser only** (no account). Use a test profile if the owner asks.
 
 **Signature (type full name):** __________________________  
+
+*(Submit via the [signup form](https://github.com/subtiliorars-sys/DrivingMeNuts---Preview/issues/new?template=playtest-signup) instead of email.)*
 
 ---
 
@@ -58,7 +72,11 @@ I agree:
 
 ## 4. Send feedback
 
-Reply to the owner with:
+After you play, file a session report (private repo — collaborators only):
+
+**→ [Playtest feedback form](https://github.com/subtiliorars-sys/DrivingMeNuts/issues/new?template=playtest-feedback)**
+
+Or reply on your signup issue thread with:
 
 ```
 Browser + OS:

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Driving Me Nuts — A Peanut Food Truck RPG</title>
+  <meta name="description" content="Run a peanut-roasting food truck, learn real small-business skills, and survive the occasional legume lecture. A cozy pixel-art RPG + idle game." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #1a1a1a;
+      color: #f4e8d0;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .container { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #2a1f0e 0%, #1a1a1a 100%); }
+    .logo { font-size: 2.5rem; font-weight: 900; color: #f4a742; letter-spacing: -0.02em; }
+    .tagline { color: #c8a060; font-size: 1.1rem; margin-top: 0.5rem; font-style: italic; }
+    .hero { text-align: center; margin-bottom: 2.5rem; }
+    .hero h2 { font-size: 1.3rem; color: #e8c878; margin-bottom: 0.5rem; }
+    .hero p { color: #c8b898; max-width: 600px; margin: 0 auto 1.5rem; }
+    .cta-group { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin: 1.5rem 0; }
+    a.btn { display: inline-block; padding: 0.85rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.15s; }
+    a.btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: #f4a742; color: #1a1a1a; }
+    .btn-secondary { background: #3a2a18; color: #f4e8d0; border: 1px solid #5a4030; }
+    .btn-wishlist { background: #2a3a4a; color: #c8d8f0; border: 1px dashed #4a6080; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
+    .feature { background: #222; padding: 1.25rem; border-radius: 10px; border-left: 4px solid #f4a742; }
+    .feature h3 { font-size: 1rem; color: #f4c878; margin-bottom: 0.4rem; }
+    .feature p { font-size: 0.9rem; color: #b8a888; }
+    .tech { background: #181818; padding: 1.5rem; border-radius: 10px; margin: 2rem 0; }
+    .tech h2 { color: #f4a742; margin-bottom: 0.5rem; }
+    .tech code { color: #8ec8a0; }
+    .quote { border-left: 4px solid #f4a742; padding: 1rem 1.5rem; margin: 2rem 0; background: #222; font-style: italic; color: #d8c098; }
+    footer { text-align: center; padding: 2rem 1rem; color: #666; font-size: 0.85rem; }
+    @media (max-width: 600px) {
+      .logo { font-size: 1.8rem; }
+      .cta-group { flex-direction: column; align-items: stretch; }
+      a.btn { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p style="color:#a88860; font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase;">JimmyTheHat Presents</p>
+    <h1 class="logo">Driving Me Nuts</h1>
+    <p class="tagline">A peanut is neither a nut nor a legume — it's a small-business simulation disguised as a cozy RPG.</p>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>🏪 Run Your Own Peanut Roasting Empire</h2>
+      <p>Roast, price, and sell peanuts with real supply-and-demand economics. Build relationships with quirky NPC customers. Manage cash flow, debt, and growth — learn what COGS means by <em>feeling</em> it.</p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="play/index.html">▶ Play Free Demo</a>
+        <a class="btn btn-secondary" href="https://subtilior.ars.itch.io/driving-me-nuts">🛒 Wishlist on itch.io</a>
+        <a class="btn btn-wishlist">🚜 Coming to Steam</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>🌰 Roast & Trade</h3>
+        <p>Set your margins too high and watch customers walk; too low and you'll never cover the cart payment. Real economics, no hand-holding.</p>
+      </div>
+      <div class="feature">
+        <h3>👥 NPC Relationships</h3>
+        <p>Customers remember how you treated them. Loyal patrons unlock new recipes and upgrades. Betray them at your peril.</p>
+      </div>
+      <div class="feature">
+        <h3>📊 Business Skills</h3>
+        <p>Take out loans, pay them back (or don't), and discover why every small business needs a rainy-day fund.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Privacy First</h3>
+        <p>All data lives in browser local storage. No accounts, no telemetry, no data leaves your machine.</p>
+      </div>
+    </section>
+
+    <section class="tech">
+      <h2>🛠 Built With</h2>
+      <p><strong>Phaser 3</strong> + <strong>TypeScript</strong> + <strong>Vite</strong>. Browser-playable, no install required.</p>
+    </section>
+
+    <div class="quote">
+      "Every sprite is programmer-placeholder quality — for now. Real pixel art coming in v0.2."
+    </div>
+
+    <section style="margin:2rem 0;">
+      <h2 style="color:#f4c878; margin-bottom:1rem;">🎮 What's Included in the Demo</h2>
+      <ul style="color:#b8a888; padding-left:1.5rem; line-height:2;">
+        <li>Save/load with corruption recovery</li>
+        <li>Daily profit-and-loss ledger</li>
+        <li>Achievement badges & Legume Lore entries</li>
+        <li>Dynamic weather affecting customer turnout</li>
+        <li>Auto-sell upgrade & supplier relationships</li>
+        <li>Brand campaigns & accessibility settings</li>
+        <li>"Save the Truck" four-path rescue arc</li>
+      </ul>
+    </section>
+
+    <section style="text-align:center; margin:3rem 0;">
+      <p style="color:#a88860; margin-bottom:1rem;">⭐ Star the repo to follow development</p>
+      <div class="cta-group" style="justify-content:center;">
+        <a class="btn btn-primary" href="https://github.com/subtiliorars-sys/DrivingMeNuts---Preview">View on GitHub</a>
+        <a class="btn btn-secondary" href="https://subtilior.ars.itch.io/driving-me-nuts">itch.io Page</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 JimmyTheHat · Driving Me Nuts is a solo-developed labor of love. Peanuts are technically legumes.
+  </footer>
+</body>
+</html>

@@ -35,9 +35,12 @@ Current demo includes: save/load with corruption recovery, daily profit-and-loss
 
 ## Play
 
-**Closed beta:** Read and sign **[PLAYTEST.md](./PLAYTEST.md)** — volunteer onboarding + confidentiality agreement. The owner sends build access after you sign.
+**Browser demo (GitHub Pages):** https://subtiliorars-sys.github.io/DrivingMeNuts/
 
-**Public demo URL:** *Not live yet — check back here or watch this repo.*
+Auto-deploys from `main` on every push via the GitHub Actions Pages workflow in the private HQ repo.
+
+**Closed beta / playtesters:** Read and sign **[PLAYTEST.md](./PLAYTEST.md)** for volunteer onboarding and confidentiality terms.
+
 
 ---
 
